@@ -5,7 +5,7 @@ const date = require(__dirname+ "/date.js");
 const _ = require("lodash");
 
 const app = express();
-mongoose.connect('mongodb+srv://diwashdhikari:Appleton699@cluster0.iiuzzdx.mongodb.net/toDoListDB');
+mongoose.connect('mongodb+srv://email and password of mongodb@cluster0.iiuzzdx.mongodb.net/toDoListDB');
 
 app.set('view engine', 'ejs');
 
